@@ -1,3 +1,7 @@
+<script lang="ts">
+export let title: string = 'Hello TypeScript';
+</script>
+
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -43,4 +47,5 @@
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
+<p>{title}</p>
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
