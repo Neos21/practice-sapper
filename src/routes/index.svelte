@@ -2,7 +2,7 @@
 export let title: string = 'Hello TypeScript';
 </script>
 
-<style>
+<style lang="scss">
 	h1, figure, p {
 		text-align: center;
 		margin: 0 auto;
@@ -27,6 +27,10 @@ export let title: string = 'Hello TypeScript';
 
 	p {
 		margin: 1em auto;
+		
+		strong {
+			color: red;
+		}
 	}
 
 	@media (min-width: 480px) {
