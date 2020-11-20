@@ -8,6 +8,16 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy"
   },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-sapper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-sapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-sapper/issues"
+  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/Neos21"
